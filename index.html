@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mierae Solar Savings Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app-background">
+        <div id="chat-container">
+            <header id="chat-header">
+                <div class="header-content">
+                    <div class="brand-avatar">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/><circle cx="12" cy="12" r="5"/><path d="M12 12L16 8"/></svg>
+                    </div>
+                    <div class="brand-info">
+                        <h2>Mierae Solar <span class="assistant-badge">⚡ Solar Savings Assistant</span></h2>
+                        <p>Check subsidy, EMI, and savings for your home</p>
+                    </div>
+                    <button id="restart-btn" title="Restart Chat" onclick="location.reload()">
+                        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.92-10.26l1.08 1.69"/></svg>
+                    </button>
+                </div>
+            </header>
+            
+            <div id="chat-messages">
+                <!-- Messages will be injected here -->
+            </div>
+
+            <div id="global-quick-replies" class="horizontal-scroll hidden">
+                <button class="g-qr-btn">💰 Subsidy Check</button>
+                <button class="g-qr-btn">☀️ Solar Benefits</button>
+                <button class="g-qr-btn">📉 EMI Options</button>
+                <button class="g-qr-btn">🏠 Free Site Visit</button>
+                <button class="g-qr-btn">📞 Talk to Advisor</button>
+            </div>
+
+            <div id="context-quick-replies" class="qr-container">
+                <!-- Contextual QR injected here -->
+            </div>
+            
+            <div id="chat-input-area">
+                <input type="text" id="user-input" placeholder="Ask about subsidy, EMI, savings..." autocomplete="off">
+                <button id="send-btn">
+                    <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
