@@ -18,18 +18,18 @@ const STRINGS = {
         roof: "Do you have usable rooftop space?",
         city: "Which city are you from?",
         pitch: "Based on what you shared, rooftop solar could help reduce your electricity bill significantly. Government subsidy can also be up to ₹78,000 depending on eligibility. Would you like me to arrange a free site visit?",
-        obj_cost: "I understand. Many homeowners feel the same initially. EMI / finance options may help make solar more affordable month-to-month. Some customers compare it to what they already pay as monthly electricity bill. A free site visit helps you know exact savings — no commitment. May I have your name and phone number?",
-        obj_default: "No problem at all. A free site visit can help you understand savings and feasibility first — no commitment. May I have your name and number?",
+        obj_cost: "I understand. Many homeowners feel the same initially. EMI / finance options may help make solar more affordable month-to-month. Some customers compare it to what they already pay as monthly electricity bill. A free site visit helps you know exact savings — no commitment.",
+        obj_default: "No problem at all. A free site visit can help you understand savings and feasibility first — no commitment.",
         lead_name: "Great. May I have your name?",
         lead_phone: "Thanks. Please share your phone number.",
-        lead_city_house: "Thank you. Could you share your city and house type (e.g. Independent House)?",
-        closing: "Perfect. Our solar advisor will connect with you shortly. If you’re eligible, checking subsidy earlier is better. Thanks! Our solar advisor will contact you shortly.",
+        lead_city_house: "Thank you. Could you share your house type (e.g. Independent House)?",
+        closing: "Thank you! Our solar advisor will contact you shortly to help you with subsidy eligibility and a free site visit.",
         fallback: "I can help you with solar savings, subsidy, or a free site visit. Which one would you like to know?",
         global_subsidy: "Government subsidy may be available up to 40%, and in some cases up to ₹78,000 depending on eligibility and system size. Would you like me to help check if your home may be suitable for solar?",
         global_benefits: "Solar can help reduce electricity bills, create long-term savings, and provide value over 20–25 years. To check whether solar may suit your home, what is your approximate monthly electricity bill?",
         global_emi: "EMI / finance options may help make solar more affordable month-to-month. Some homeowners compare it to what they already pay as monthly electricity bill. Would you like to know whether solar could fit your home?",
-        global_site_visit: "Great! I can help arrange a free site visit. May I take a few details first?",
-        global_advisor: "Sure — I can help our solar advisor connect with you. May I have your name and phone number?"
+        global_site_visit: "Great! I can help arrange a free site visit. May I have your name?",
+        global_advisor: "Sure — I can help our solar advisor connect with you. May I have your name?"
     },
     hi: {
         welcome: `Hi 👋 Welcome to Mierae Solar<br><br>Please choose your language to continue:<br><br>• Check subsidy<br>• Estimate savings<br>• Explore EMI options<br>• Book free site visit`,
@@ -39,18 +39,18 @@ const STRINGS = {
         roof: "क्या आपकी छत खाली है?",
         city: "आप किस शहर से हैं?",
         pitch: "जो आपने बताया उसके हिसाब से rooftop solar आपके बिजली बिल को काफी कम कर सकता है। Eligibility के हिसाब से government subsidy ₹78,000 तक मिल सकती है। क्या मैं आपके लिए free site visit arrange कर दूँ?",
-        obj_cost: "समझ सकता हूँ। शुरुआत में बहुत लोगों को ऐसा लगता है। EMI / finance options से solar को आसान बनाया जा सकता है। Free site visit से पहले exact savings समझ सकते हैं — कोई commitment नहीं। क्या आप अपना नाम और number share करेंगे?",
-        obj_default: "कोई बात नहीं। Free site visit से पहले savings और feasibility समझ सकते हैं — कोई commitment नहीं। क्या आप अपना नाम और number share करेंगे?",
+        obj_cost: "समझ सकता हूँ। शुरुआत में बहुत लोगों को ऐसा लगता है। EMI / finance options से solar को आसान बनाया जा सकता है। Free site visit से पहले exact savings समझ सकते हैं — कोई commitment नहीं।",
+        obj_default: "कोई बात नहीं। Free site visit से पहले savings और feasibility समझ सकते हैं — कोई commitment नहीं।",
         lead_name: "ठीक है, क्या मैं आपका नाम जान सकता हूँ?",
         lead_phone: "धन्यवाद। कृपया अपना phone number बताएं।",
-        lead_city_house: "धन्यवाद। कृपया अपना शहर और घर का प्रकार (जैसे Independent House) बताएं।",
-        closing: "Perfect. हमारी team जल्द ही आपसे संपर्क करेगी। अगर आप eligible हैं, तो earlier check करना बेहतर है। Thanks! Our solar advisor will contact you shortly.",
+        lead_city_house: "धन्यवाद। कृपया अपने घर का प्रकार (जैसे Independent House) बताएं।",
+        closing: "धन्यवाद! हमारे solar advisor subsidy eligibility और free site visit में आपकी मदद करने के लिए जल्द ही आपसे संपर्क करेंगे।",
         fallback: "मैं आपको solar savings, subsidy, या free site visit के बारे में बता सकता हूँ। आप क्या जानना चाहेंगे?",
         global_subsidy: "Government subsidy eligibility के हिसाब से ₹78,000 तक मिल सकती है। क्या आप चेक करना चाहेंगे कि आपका घर solar के लिए suitable है?",
         global_benefits: "Solar से 20-25 साल तक बिजली बिल की बचत होती है। Eligibility check करने के लिए, आपका monthly बिजली बिल लगभग कितना आता है?",
         global_emi: "EMI / finance options से solar को आसान बनाया जा सकता है। क्या आप जानना चाहेंगे कि solar आपके घर के लिए सही है?",
-        global_site_visit: "ज़रूर! मैं एक free site visit arrange कर सकता हूँ। क्या मैं आपका नाम और फ़ोन नंबर जान सकता हूँ?",
-        global_advisor: "ज़रूर! हमारे advisor आपकी मदद करेंगे। अपना नाम और फ़ोन नंबर बताएं?"
+        global_site_visit: "ज़रूर! मैं एक free site visit arrange कर सकता हूँ। क्या मैं आपका नाम जान सकता हूँ?",
+        global_advisor: "ज़रूर! हमारे advisor आपकी मदद करेंगे। क्या आप अपना नाम बताएंगे?"
     },
     te: {
         welcome: `Hi 👋 Welcome to Mierae Solar<br><br>Please choose your language to continue:<br><br>• Check subsidy<br>• Estimate savings<br>• Explore EMI options<br>• Book free site visit`,
@@ -60,18 +60,18 @@ const STRINGS = {
         roof: "మీ ఇంటి మీద ఖాళీ roof / terrace ఉందా?",
         city: "అద్భుతం. మీరు ఏ city నుండి మాట్లాడుతున్నారు?",
         pitch: "మీరు చెప్పిన వివరాల ప్రకారం rooftop solar మీ current bill ని బాగా తగ్గించే అవకాశం ఉంది. Government subsidy కూడా eligibility బట్టి ₹78,000 వరకు రావచ్చు. మీకు free site visit arrange చేయాలా?",
-        obj_cost: "అది చాలామందికి ఉండే common concern. EMI / finance options వల్ల monthly burden తగ్గే అవకాశం ఉంటుంది. ముందుగా free site visit ద్వారా exact savings తెలుసుకోవచ్చు — ఎలాంటి commitment అవసరం లేదు. మీ పేరు మరియు number share చేస్తారా?",
-        obj_default: "పర్లేదు. ముందుగా free site visit ద్వారా savings మరియు feasibility check చేసుకోవచ్చు — ఎలాంటి commitment అవసరం లేదు. మీ పేరు మరియు number share చేస్తారా?",
+        obj_cost: "అది చాలామందికి ఉండే common concern. EMI / finance options వల్ల monthly burden తగ్గే అవకాశం ఉంటుంది. ముందుగా free site visit ద్వారా exact savings తెలుసుకోవచ్చు — ఎలాంటి commitment అవసరం లేదు.",
+        obj_default: "పర్లేదు. ముందుగా free site visit ద్వారా savings మరియు feasibility check చేసుకోవచ్చు — ఎలాంటి commitment అవసరం లేదు.",
         lead_name: "దయచేసి మీ పేరు చెప్పండి.",
         lead_phone: "ధన్యవాదాలు. దయచేసి మీ phone number ఇవ్వండి.",
-        lead_city_house: "ధన్యవాదాలు. మీ city మరియు house type కూడా share చేస్తారా?",
-        closing: "Perfect. మా solar advisor త్వరలో మీతో connect అవుతారు. If you’re eligible, checking subsidy earlier is better. Thanks! Our solar advisor will contact you shortly.",
+        lead_city_house: "ధన్యవాదాలు. మీ house type (e.g. Independent House) ఏమిటి?",
+        closing: "ధన్యవాదాలు! Subsidy eligibility మరియు free site visit కోసం మా solar advisor త్వరలో మిమ్మల్ని సంప్రదిస్తారు.",
         fallback: "నేను మీకు solar savings, subsidy, లేదా free site visit గురించి సహాయం చేయగలను. మీరు ఏమి తెలుసుకోవాలనుకుంటున్నారు?",
         global_subsidy: "Government subsidy eligibility బట్టి ₹78,000 వరకు రావచ్చు. మీ ఇల్లు solar కి సరిపోతుందో లేదో check చేయమంటారా?",
         global_benefits: "Solar వల్ల 20-25 years long-term savings ఉంటాయి. మీ ఇల్లు eligibility check చేయడానికి, ముందుగా మీ monthly current bill సుమారుగా ఎంత వస్తుంది?",
         global_emi: "Affordable EMI options వల్ల monthly burden తగ్గే అవకాశం ఉంటుంది. మీ ఇంటికి solar సరిపోతుందో లేదో తెలుసుకోవాలనుకుంటున్నారా?",
-        global_site_visit: "తప్పకుండా! నేను free site visit arrange చేయగలను. దయచేసి మీ పేరు మరియు నెంబర్ ఇస్తారా?",
-        global_advisor: "తప్పకుండా, మా advisor మీకు కాల్ చేస్తారు. దయచేసి మీ పేరు మరియు ఫోన్ నెంబర్ ఇస్తారా?"
+        global_site_visit: "తప్పకుండా! నేను free site visit arrange చేయగలను. మీ పేరు చెప్పండి?",
+        global_advisor: "తప్పకుండా, మా advisor మీకు కాల్ చేస్తారు. దయచేసి మీ పేరు ఇస్తారా?"
     }
 };
 
@@ -147,12 +147,12 @@ function handleGlobalFeature(text) {
     else if(lower.includes('site visit')) {
         botSay(t('global_site_visit'));
         showContextQR([]);
-        state = 'LEAD_CONTACT';
+        state = 'LEAD_NAME';
     }
     else if(lower.includes('advisor')) {
         botSay(t('global_advisor'));
         showContextQR([]);
-        state = 'LEAD_CONTACT';
+        state = 'LEAD_NAME';
     }
 }
 
@@ -238,24 +238,35 @@ function processInput(input) {
 
         case 'PITCH':
             if (lower.includes('cost') || lower.includes('ekkuva') || lower.includes('कितना')) {
+                leadData.interested = 'Cost';
                 botSay(t('obj_cost'));
             } else if (lower.includes('no') || lower.includes('not sure') || lower.includes('లేదు')) {
+                leadData.interested = 'No';
                 botSay(t('obj_default'));
             } else {
-                botSay("Great! May I have your name and number?");
+                leadData.interested = 'Yes';
             }
+            botSay(t('lead_name'));
             showContextQR([]);
-            state = 'LEAD_CONTACT';
+            state = 'LEAD_NAME';
             break;
 
-        case 'LEAD_CONTACT':
-            leadData.contact = input;
+        case 'LEAD_NAME':
+            leadData.name = input;
+            botSay(t('lead_phone'));
+            showContextQR([]);
+            state = 'LEAD_PHONE';
+            break;
+
+        case 'LEAD_PHONE':
+            leadData.phone = input;
             botSay(t('lead_city_house'));
             showContextQR([]);
-            state = 'LEAD_META';
+            state = 'LEAD_HOUSE';
             break;
 
-        case 'LEAD_META':
+        case 'LEAD_HOUSE':
+            leadData.houseType = input;
             botSay(t('closing'));
             showContextQR([]);
             state = 'DONE';
